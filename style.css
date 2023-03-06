@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Caladea Regular, sans-serif;
 }
 
 .main_navbar {
@@ -68,4 +69,31 @@
     flex-direction: row;
     justify-content: center;
     border-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+}
+
+.quadrado {
+    background-color: lightgray;
+    border: solid 1px lightgray;
+    border-radius: 18px;
+    height: clamp(100px, 200px, 300px);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+}
+
+.quadrado img {
+    width: 100%;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
 }
