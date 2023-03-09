@@ -2,7 +2,18 @@
     padding: 0;
     margin: 0;
     font-family: Caladea Regular, sans-serif;
+    text-decoration: none;
 }
+
+a {
+    color: white;
+}
+
+
+body {
+    background-color: #EEEEEE;
+}
+
 
 .main_navbar {
     display: grid;
@@ -44,8 +55,18 @@
     width: 25ch;
 }
 
+
+.menus button a {
+    color: white;
+    font-weight: 1000;
+}
+
 .menus button:hover {
     background-color: white;
+    color: #0C5F14;
+}
+
+.menus button:hover * {
     color: #0C5F14;
 }
 
@@ -71,27 +92,76 @@
     border-sizing: border-box;
 }
 
+
 main {
+    margin-top: 10px;
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: 0.5fr 2fr;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin-right: 0%;
+    margin-left: 0%;
+    grid-template-columns: 1fr;
+  }
+
+  .main_navbar {
+      grid-template-rows: 1fr 1fr;
+  }
+  .logotipo {
+      grid-column: 1;
+  }
+
+  .menus {
+      width: 100vw;
+  }
+}
+
+.sidebar {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style: none;
 
 }
 
-.quadrado {
-    background-color: lightgray;
-    border: solid 1px lightgray;
-    border-radius: 18px;
-    height: clamp(100px, 200px, 300px);
+.sidebar ul li {
+    background-color: green;
+    border: solid green 1px;
+    border-radius: 6px;
+    margin: 5px 0;
+
+    padding: 5px;
+}
+
+.stuffs {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1.5fr));
+}
+
+.quadrado {
+    background-color: #D9D9D9;
+    border: solid 1px #D9D9D9;
+    border-radius: 18px;
+    height: clamp(100px, 200px, 500px);
+    display: grid;
+    grid-template-rows: 2fr 2fr;
     padding: 10px;
+    text-align: center;
+    font-size: 1.25em;
 }
 
 .quadrado img {
     width: 100%;
     height: auto;
-    border: 1px solid lightgray;
+    border: 1px solid #d9d9d9;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
