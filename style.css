@@ -150,10 +150,9 @@ main {
     background-color: #D9D9D9;
     border: solid 1px #D9D9D9;
     border-radius: 18px;
-    height: clamp(100px, 200px, 500px);
-    display: grid;
-    grid-template-rows: 2fr 2fr;
-    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 100px;
     text-align: center;
     font-size: 1.25em;
 }
@@ -166,4 +165,5 @@ main {
     justify-content: center;
     align-items: center;
     grid-auto-flow: column;
+    margin-right: 10px;
 }
