@@ -13,16 +13,16 @@ function NavBar() {
         <input className="search-bar" type="text"/>
         <div className="menu-buttons">
           <a href="">
-            <button>Vender <img src={ placeholder } alt=""/></button>
+            <button>Vender<img src={ placeholder } alt="Acessar painel de vendas"/></button>
           </a>
           <a href="">
-            <button>Criar a sua conta <img src={ placeholder } alt="" /></button>
+            <button>Criar a sua conta<img src={ placeholder } alt="Criar uma conta" /></button>
           </a>
           <a href="">
-            <button>Entrar <img src={ placeholder } alt="" /></button>
+            <button>Entrar<img src={ placeholder } alt="Entrar em sua conta" /></button>
           </a>
           <a href="">
-            <button>Comprar <img src={ placeholder } alt="" /></button>
+            <button>Comprar<img src={ placeholder } alt="Acessar painel de compras" /></button>
           </a>
         </div>
       </div>
@@ -59,7 +59,6 @@ function ItemGrade() {
 function Grade() {
   return (
     <div className="grade-imoveis">
-      <ItemGrade></ItemGrade>
       <ItemGrade></ItemGrade>
       <ItemGrade></ItemGrade>
       <ItemGrade></ItemGrade>
