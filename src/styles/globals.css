@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+  font-family: Inter,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green: rgb(135, 200, 120);
+  --darkgreen: #00a84a;
+}
+
+.Navbar {
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  flex-direction: row;
+  background-color: var(--darkgreen);
+  padding: 0.5em;
+}
+
+.navbar-clickable {
+  height: 56px;
+  width: 70ch;
+}
+
+.logo-ceara {
+  height: 4em;
+  width: auto;
+}
+
+.search-bar {
+  height: 60%;
+  width: 100%;
+  padding-left: 5px;
+  border: solid var(--darkgreen) 1px;
+  border-radius: 5px;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 50%;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.menu-buttons a{
+  height: 100%;
+  width: 15ch;
+}
+
+.menu-buttons button{
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  background-color: var(--darkgreen);
+  border: solid var(--darkgreen) 2px;
+  border-radius: 5px;
+}
+
+.menu-buttons button:hover{
+  border: solid white 2px;
+}
+
+.Sidebar {
+  border: solid #CCCCCC 3px;
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  list-style: none;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+.sidebar-link {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.Sidebar li {
+  padding: 5px;
+
+}
+
+.Sidebar li:hover {
+  background-color: #CCCCCC;
+}
+
+.Sidebar li a{
+  text-decoration: none;
+  color: black;
+  font-stretch: ultra-expanded;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.texto-grade {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-grade em {
+  font-size: 1.3em;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.texto-grade span {
+  color: #555555;
+}
+
+.grade-imoveis {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 30px;
+}
+
+.grade-item img{
+  width: 200px;
+  height: 200px;
+}
+
+.grade-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 225px;
+  background-color: #cccccc;
+  border: solid #cccccc 1px;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.tela-login-main {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tela-login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--darkgreen);
+  padding:20px;
+  border: solid black 3px;
+  border-radius: 10px;
+  box-shadow: 25px 10px 5px #777777;
+}
+
+.tela-login a {
+  color: white;
+  text-decoration: none;
+  background-color: var(--green);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.tela-login a:hover {
+  font-stretch: ultra-expanded;
+  color: purple;
+}
+
+.tela-login > * {
+  margin: 5px;
+}
+
+.tela-login button {
+  width: 50%;
+  height: 2em;
+  font-size: 18px;
+}
+
+.campo {
+  width: 100%
+}
+
+.campo input {
+  border: solid black 1px;
+  background-color: var(--green);
+  color: black;
+  font-size: 1.2em;
+  border-radius: 10px;
+  height: 2em;
+  padding: 5px;
+}
+
+.tela-login button {
+  background-color: var(--green);
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+
+.tela-login button:hover {
+  color: purple
+}
+
+.ondas {
+  position: absolute;
+  transform: translate(0%, -70%);
+}
