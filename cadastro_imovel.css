@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    grid-area: myArea;
+}
+
+form {
+    /* display: grid;
+    grid-template: 
+    'myArea '
+    'myArea myArea'
+    'myArea myArea' ; */
+    width: 70%;
+}
+
+form input {
+    height: 2em;
+}

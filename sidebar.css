@@ -1,0 +1,27 @@
+
+.sidebar {
+    border: solid 2px black;
+    border-radius: 0.5em;
+    font-size: 1.25em;
+    width: 250px;
+    padding: 10px;
+    margin-left: 5px;
+    max-height: 10em;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul a {
+    text-shadow: none;
+    border: solid 2px white;
+    color: black;   
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar ul a:hover {
+    border: solid 2px black;
+}

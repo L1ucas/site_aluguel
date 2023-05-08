@@ -1,0 +1,74 @@
+body {
+    background-color: lightgrey;
+}
+
+.main_login {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto_login {
+    width: 20em;
+}
+.main_login * {
+    text-shadow: 5px 4px 10px #00000050;
+}
+
+.form_login {
+    padding: 2em;
+    background-color: white;
+    width: 500px;
+    font-size: 20px;
+    border: solid 1px white;
+    border-radius: 0.5em;
+    box-shadow: 5px 4px 10px #00000030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_login input {
+    height: 2em;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 0;
+    width: 100%;
+}
+
+.form_login .item {
+    width: 100%;
+}
+
+.item1 {
+    width: fit-content;
+}
+
+.form_login input:hover {
+    border: 2px solid gray;
+}
+
+.form_login button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: solid 1px var(--darkgreen);
+    background-color: var(--darkgreen);
+    color: white;
+    text-shadow: 5px 4px 10px black;
+    margin-top: 10px;
+}
+
+#campo_genero {
+    height: 2em;
+    background-color: lightgray;
+    border: solid 1px lightgray;
+    width: 24ch;
+    overflow: hidden; 
+}

@@ -1,0 +1,40 @@
+.index_main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.grade_imoveis {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+    width: 60%;
+    gap: 1em 1em;
+}
+
+.item_imoveis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 14em;
+    align-items: center;
+    padding-top: 1px;
+    height: 17em;
+    border: solid lightgray 1px;
+    border-radius: 1em; 
+    background-color: lightgray;
+}
+
+.item_imoveis span {
+    text-shadow: none;
+}
+
+.item_imoveis .preco {
+    font-weight: 700;
+    font-size: larger;
+    margin-bottom: 8px;
+}
+
+.item_imoveis img {
+    width: 90%;
+    height: auto;
+}

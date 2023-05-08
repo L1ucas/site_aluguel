@@ -1,0 +1,7 @@
+PRIORIDADE 
+fazer a tela de cadastro de imóveis
+
+MENOR PRIORIDADE
+fazer cadastro e login dos clientes
+criar uma conta do sql tanto para o cliente quando para o funcionário
+proteger contra inserções SQL

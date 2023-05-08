@@ -1,0 +1,26 @@
+.descricao_imovel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--darkgreen);
+    color: white;
+    border: solid 1px var(--darkgreen);
+    border-radius: 1em;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.imagem {
+    width: 800px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.preco {
+    font-size: 40px;
+}
