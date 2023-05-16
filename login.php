@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/login.css">
     <title>Login</title>
 </head>
 <body>
 <?php include_once 'navbar.php'; ?>
     <main class="main_login">
-        <form action="login.php" method="post" class="form_login">
-        <div class="texto_login">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum placeat architecto iste, nisi accusantium suscipit aliquid esse a vel, aperiam quibusdam distinctio id magni accusamus totam. Culpa provident deleniti ab?</p>
-        </div>
+        <form action="login_submit.php" method="post" class="form_login">
                 <label for="" class="item">
                     Email: 
                     <input type="email" name="campo_email" id="campo_email">

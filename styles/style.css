@@ -79,3 +79,12 @@ input {
     padding-left: 10px;
     text-shadow: none;
 }
+
+.navbar_img_link {
+    height: 5em;
+}
+
+.navbar_img_link img {
+    height: 100%;
+    width: auto;
+}

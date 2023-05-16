@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Descricao do imóvel</title>
-        <link href="style.css" rel="stylesheet"/>
-        <link href="descricao.css" rel="stylesheet"/>
+        <link href="styles/style.css" rel="stylesheet"/>
+        <link href="styles/descricao.css" rel="stylesheet"/>
     </head>
     <body>
         <?php include_once "navbar.php";?>

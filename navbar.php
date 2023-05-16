@@ -1,5 +1,6 @@
 <nav class="navbar">
-    <img src="assets/logo-ceara.svg" alt="Logo do Ceará" class="logo_ceara">
+    <a href="index.php" class="navbar_img_link"><img src="assets/logo-ceara.svg" alt="Logo do Ceará" class="logo_ceara"></a>
+
     <div class="navbar_props">
             <input type="text" name="search" id="input_pesquisa" placeholder="Buscar imóveis, terrenos e mais">
         <ul class="navbar_links">
