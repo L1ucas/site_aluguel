@@ -1,8 +1,3 @@
-<?php include_once "connect_db.php"; 
-
-?>
-
-
 <div class="grade_imoveis">
     <?php for ($x=0; $x < 10; $x++) {
         echo '
@@ -19,4 +14,4 @@
 </div>
 
 
-<?php $conn->close(); ?>
+<?php  ?>

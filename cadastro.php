@@ -13,7 +13,7 @@
 <body>
     <?php include_once 'navbar.php'; ?>
     <main class="main_cadastro">
-        <form action="cadastro.php" method="post" class="form_cadastro">
+        <form action="cadastro_submit.php" method="post" class="form_cadastro">
                 <label for="" class="item">
                     Nome:
                     <input type="text" name="campo_nome" id="campo_nome">
@@ -43,7 +43,8 @@
                         <option value="3">Mulher transgênera</option>
                         <option value="4">Mulher cisgênera</option>
                         <option value="5">Panzerkampfwagen Sturmpanzer IV</option>
-                        <option value="6">Prefiro não dizer</option>
+                        <option value="6">Outro</option>
+                        <option value="7">Prefiro não dizer</option>
                     </select>
                 </label>
                 <div class="item" style="font-size: 0.5em" >

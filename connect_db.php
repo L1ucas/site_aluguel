@@ -1,15 +1,15 @@
 <?php 
-# SELECT
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "usuarios";
+$servidor = "localhost";
+$usuario = "root";
+$senha = "";
+$nomeDoBanco = "usuarios";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+$conexaoBD = mysqli_connect($servidor, $usuario, $senha, $nomeDoBanco);
+if (!$conexaoBD) {
+  echo "Não conectou com o Banco de Dados";
+}else{
+  //echo "Conectado!!";
 }
+
 ?>

@@ -62,9 +62,14 @@ input {
     width: 10ch;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
     font-weight: 900;
+}
+
+.navbar_links img {
+    height: 1px;
+    width: auto;
 }
 
 .navbar_links a:hover {
