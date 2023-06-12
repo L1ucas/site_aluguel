@@ -1,0 +1,48 @@
+body {
+    background-color: lightgray;
+}
+
+
+.main_div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_form > .fur input {
+    padding: 0.5em 0 0.5em 0.5em;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    border-radius: 0px;
+}
+
+.second_to_main {
+    padding: 1em;
+    background-color: white;
+    width: clamp(200px, 70%, 800px);
+    margin-top: 10px;
+}
+
+.dados_cartao {
+    padding: 1em;
+    background-color: lightgray ;
+}
+
+.fur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.6em;
+    width: 100%;
+}
+
+.dados_cartao input {
+    padding: 0.5em 0 0.5em 0.5em;
+    border: solid 1px white;
+}
+
+.main_form button[type=submit] {
+    background-color: var(--green);
+    border: solid 1px var(--green);
+    padding: 10px;
+}

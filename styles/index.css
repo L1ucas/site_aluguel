@@ -38,3 +38,23 @@
     width: 90%;
     height: auto;
 }
+
+.comprar_btn {
+    padding: 10px;
+    border: solid 2px transparent;
+    border-radius: 1em;
+    width: 10ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--darkgreen);
+    font-weight: 900;
+}
+
+.comprar_btn:hover {
+    padding: 10px;
+    border: solid 2px var(--green);
+    box-shadow: 2px 2px var(--green);
+    font-weight: 900;
+}

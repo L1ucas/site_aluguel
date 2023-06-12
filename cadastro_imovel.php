@@ -13,7 +13,7 @@
 <body>
     <?php include_once 'navbar.php'; ?>
     <main>
-        <form action="imovel_cadastro.php" method="post">
+        <form action="cadastro_imovel_submit.php" method="post">
         <label for="" class="item2">
                 Nome
                 <input type="text" name="nome" id="campo_nome">

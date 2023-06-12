@@ -32,7 +32,7 @@
                 <div class="texto">
                     <h1>404: Página não encontrada</h1>
                     <p>A página que você está procurando não existe ou algum erro aconteceu.
-Volte para a página inicial.</p>
+                    Volte para a página inicial.</p>
                 </div>
             </div>
 

@@ -7,6 +7,7 @@
             <span>A partir de</span>
             <span class="preco">R$ 4000000</span>
             <span>10 metros quadrados</span>
+            <a href="#" class="comprar_btn">Comprar</a>
         </div>
     </div>
     ';}?>

@@ -69,3 +69,8 @@ body {
     width: 24ch;
     overflow: hidden; 
 }
+
+#mensagem {
+    background-color: #ff0000;
+}
+

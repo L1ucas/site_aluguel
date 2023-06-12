@@ -19,13 +19,17 @@ echo $bairro . '<br>';
 echo $metros_quadrados . '<br>';
 echo $imagem . '<br>';
 
-$conn->query("INSERT INTO imovel(nome, imagem, descricao, 
-preco, disponibilidade, endereco, 
-bairro, cep, metros_quadrados) 
-VALUES ({$nome}, {$imagem}, {$descricao}, {$preco}, 
-{$disponibilidade}, {$endereco}, {$bairro}, {$cep}, {$metros_quadrados})");
+$sql = mysqli_query($conexaoBD,
+"INSERT INTO imovel(nome, imagem, descricao, preco, disponibilidade, endereco,\
+ bairro, cep, senha, metros_quadrados)\
+ VALUES ('$nome', '$imagem', '$descricao', '$preco', '$disponibilidade', '$endereco', '$bairro', '$cep', '$')");
 
-$conn->close();
+if ($sql) {
+	header('location: index.php');
+}
+
+mysqli_close($conexaoBD);
+
 
 
 ?>
