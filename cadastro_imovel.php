@@ -13,7 +13,7 @@
 <body>
     <?php include_once 'navbar.php'; ?>
     <main>
-        <form action="cadastro_imovel_submit.php" method="post">
+        <form action="cadastro_imovel_submit.php" method="post" enctype="multipart/form-data">
         <label for="" class="item2">
                 Nome
                 <input type="text" name="nome" id="campo_nome">
@@ -44,7 +44,7 @@
             </label>
             <label for="" class="item6">
                 Adicione uma imagem
-                <input type="file" name="imagem" id="" >
+                <input type="file" name="imagem" id="">
             </label>
             <button type="submit">Submit</button>
         </form>
